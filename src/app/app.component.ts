@@ -9,5 +9,11 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'sample-app 2';
+  title = 'sample-app 3';
+
+  qwe = 1;
+
+  clicked() {
+    this.qwe += 1;
+  }
 }
