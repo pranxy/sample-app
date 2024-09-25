@@ -16,78 +16,9 @@
 
   <mat-sidenav-content>
     <div style="padding: 2rem">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi deserunt
-        magnam vitae non dolorum consequuntur repellendus rerum ipsa fuga iste
-        corrupti labore natus totam quod, quidem accusamus adipisci qui.
-        Accusantium?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi deserunt
-        magnam vitae non dolorum consequuntur repellendus rerum ipsa fuga iste
-        corrupti labore natus totam quod, quidem accusamus adipisci qui.
-        Accusantium?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi deserunt
-        magnam vitae non dolorum consequuntur repellendus rerum ipsa fuga iste
-        corrupti labore natus totam quod, quidem accusamus adipisci qui.
-        Accusantium?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi deserunt
-        magnam vitae non dolorum consequuntur repellendus rerum ipsa fuga iste
-        corrupti labore natus totam quod, quidem accusamus adipisci qui.
-        Accusantium?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi deserunt
-        magnam vitae non dolorum consequuntur repellendus rerum ipsa fuga iste
-        corrupti labore natus totam quod, quidem accusamus adipisci qui.
-        Accusantium?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi deserunt
-        magnam vitae non dolorum consequuntur repellendus rerum ipsa fuga iste
-        corrupti labore natus totam quod, quidem accusamus adipisci qui.
-        Accusantium?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi deserunt
-        magnam vitae non dolorum consequuntur repellendus rerum ipsa fuga iste
-        corrupti labore natus totam quod, quidem accusamus adipisci qui.
-        Accusantium?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi deserunt
-        magnam vitae non dolorum consequuntur repellendus rerum ipsa fuga iste
-        corrupti labore natus totam quod, quidem accusamus adipisci qui.
-        Accusantium?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi deserunt
-        magnam vitae non dolorum consequuntur repellendus rerum ipsa fuga iste
-        corrupti labore natus totam quod, quidem accusamus adipisci qui.
-        Accusantium?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi deserunt
-        magnam vitae non dolorum consequuntur repellendus rerum ipsa fuga iste
-        corrupti labore natus totam quod, quidem accusamus adipisci qui.
-        Accusantium?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi deserunt
-        magnam vitae non dolorum consequuntur repellendus rerum ipsa fuga iste
-        corrupti labore natus totam quod, quidem accusamus adipisci qui.
-        Accusantium?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi deserunt
-        magnam vitae non dolorum consequuntur repellendus rerum ipsa fuga iste
-        corrupti labore natus totam quod, quidem accusamus adipisci qui.
-        Accusantium?
-      </p>
+      @for (lorem of lorems; track $index) {
+      <p>{{ lorem }}</p>
+      }
     </div>
   </mat-sidenav-content>
 </mat-sidenav-container>

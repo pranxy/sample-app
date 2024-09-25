@@ -32,4 +32,11 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   items = Array.from(Array(30).keys()).map((i) => `item ${i}`);
+
+  lorems = Array.from(Array(30).keys()).map(
+    () => `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi deserunt
+        magnam vitae non dolorum consequuntur repellendus rerum ipsa fuga iste
+        corrupti labore natus totam quod, quidem accusamus adipisci qui.
+        Accusantium?`
+  );
 }
